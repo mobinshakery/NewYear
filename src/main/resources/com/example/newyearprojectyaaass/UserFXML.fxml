@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ScenePane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="990.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newyearprojectyaaass.UserController">
+   <children>
+      <ImageView fitHeight="161.0" fitWidth="150.0" layoutX="62.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/Compressed/5169269.png"/>
+         </image>
+      </ImageView>
+      <PasswordField layoutX="650.0" layoutY="325.0" />
+      <TextField layoutX="650.0" layoutY="255.0" />
+      <Label layoutX="80.0" layoutY="263.0" text="Welcome">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="83.0" layoutY="378.0" text="To The">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="80.0" layoutY="480.0" text="Dragon Shop">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="460.0" layoutY="323.0" text="Password">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="617.0" layoutY="80.0" text="LOGIN">
+         <font>
+            <Font size="56.0" />
+         </font>
+      </Label>
+      <Label layoutX="495.0" layoutY="253.0" text="Email">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="585.0" text="Dont have an account ?" />
+      <Button fx:id="forgotbutton" layoutX="483.0" layoutY="632.0" mnemonicParsing="false" onAction="#ForgotButton" prefHeight="38.0" prefWidth="138.0" text="Forgot Password?" />
+      <Button fx:id="signupbutton" layoutX="683.0" layoutY="580.0" mnemonicParsing="false" onAction="#SignUpButton" text="Sign Up" />
+      <ImageView fitHeight="42.0" fitWidth="42.0" layoutX="877.0" layoutY="321.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../Downloads/Compressed/download.png" />
+         </image>
+      </ImageView>
+      <RadioButton fx:id="user" layoutX="662.0" layoutY="404.0" mnemonicParsing="false" text="User">
+         <toggleGroup>
+            <ToggleGroup fx:id="ASU" />
+         </toggleGroup></RadioButton>
+      <RadioButton fx:id="admin" layoutX="488.0" layoutY="404.0" mnemonicParsing="false" text="Admin" toggleGroup="$ASU" />
+      <RadioButton fx:id="seller" layoutX="822.0" layoutY="404.0" mnemonicParsing="false" text="Seller" toggleGroup="$ASU" />
+      <Button layoutX="935.0" layoutY="31.0" mnemonicParsing="false" onAction="#XButton" text="X" fx:id="xbutton" />
+      <Button fx:id="login" layoutX="614.0" layoutY="468.0" mnemonicParsing="false" onAction="#LoginButton" prefHeight="77.0" prefWidth="237.0" text="LOGIN">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
