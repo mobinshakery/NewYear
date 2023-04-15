@@ -15,11 +15,11 @@
    <children>
       <ImageView fitHeight="161.0" fitWidth="150.0" layoutX="62.0" layoutY="46.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../../../../../../Downloads/Compressed/5169269.png"/>
+            <Image url="@../../../../../../../../Downloads/Compressed/5169269.png" />
          </image>
       </ImageView>
-      <PasswordField layoutX="650.0" layoutY="325.0" />
-      <TextField layoutX="650.0" layoutY="255.0" />
+      <PasswordField fx:id="passwordText" layoutX="650.0" layoutY="325.0" />
+      <TextField fx:id="emailText" layoutX="650.0" layoutY="255.0" />
       <Label layoutX="80.0" layoutY="263.0" text="Welcome">
          <font>
             <Font size="36.0" />
@@ -58,12 +58,12 @@
             <Image url="@../../../../../../../../Downloads/Compressed/download.png" />
          </image>
       </ImageView>
-      <RadioButton fx:id="user" layoutX="662.0" layoutY="404.0" mnemonicParsing="false" text="User">
+      <RadioButton fx:id="user" layoutX="662.0" layoutY="404.0" mnemonicParsing="false" onAction="#RadioButton" text="User">
          <toggleGroup>
             <ToggleGroup fx:id="ASU" />
          </toggleGroup></RadioButton>
-      <RadioButton fx:id="admin" layoutX="488.0" layoutY="404.0" mnemonicParsing="false" text="Admin" toggleGroup="$ASU" />
-      <RadioButton fx:id="seller" layoutX="822.0" layoutY="404.0" mnemonicParsing="false" text="Seller" toggleGroup="$ASU" />
+      <RadioButton fx:id="admin" layoutX="488.0" layoutY="404.0" mnemonicParsing="false" onAction="#RadioButton" text="Admin" toggleGroup="$ASU" />
+      <RadioButton fx:id="seller" layoutX="822.0" layoutY="404.0" mnemonicParsing="false" onAction="#RadioButton" text="Seller" toggleGroup="$ASU" />
       <Button layoutX="935.0" layoutY="31.0" mnemonicParsing="false" onAction="#XButton" text="X" fx:id="xbutton" />
       <Button fx:id="login" layoutX="614.0" layoutY="468.0" mnemonicParsing="false" onAction="#LoginButton" prefHeight="77.0" prefWidth="237.0" text="LOGIN">
          <font>

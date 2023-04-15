@@ -4,7 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2e0f13a7-1ee2-4440-b765-ddbfe036263e" name="Changes" comment="" />
+    <list default="true" id="2e0f13a7-1ee2-4440-b765-ddbfe036263e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_j_8_0_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/AddSellerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/AdminDashboardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/DealingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/ManageSellerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/MyConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/SelectSellerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/AddSellerFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/AdminDashboardFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/CategoryFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/DealiNgFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/ManageSellerFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/ProductFXML.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/SelectSeller.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apiguardian_apiguardian_api_1_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NewYearProjectYAAASS.iml" beforeDir="false" afterPath="$PROJECT_DIR$/NewYearProjectYAAASS.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/Delivery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/ForgorPassword.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/ManageUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/MyDelivery.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/Purchase.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/PurchaseDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/SellerAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/SellerDashboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/SignUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/UserAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/UserDashboard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/UserFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/newyearprojectyaaass/UserFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/Delivery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/ForgorPassword.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/ManageUsers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/MyDelivery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/Purchase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/PurchaseDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/SellerAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/SellerDashboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/SignUp.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/UserAccount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/UserDashboard.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/UserFXML.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/newyearprojectyaaass/UserFXML.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/module-info.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/module-info.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +67,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="JavaFXApplication" />
         <option value="Class" />
-        <option value="FxmlFile" />
       </list>
     </option>
   </component>
@@ -32,18 +86,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/mysql-connector-j-8.0.32.jar" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Libraries" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="Application.ManageUsers">
-    <configuration name="Delivery" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.newyearprojectyaaass.Delivery" />
+  <component name="RunManager" selected="Application.User">
+    <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.newyearprojectyaaass.Demo" />
       <module name="NewYearProjectYAAASS" />
       <extension name="coverage">
         <pattern>
@@ -68,8 +125,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SellerAccount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.newyearprojectyaaass.SellerAccount" />
+    <configuration name="SellerDashboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.newyearprojectyaaass.SellerDashboard" />
       <module name="NewYearProjectYAAASS" />
       <extension name="coverage">
         <pattern>
@@ -81,8 +138,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SellerDashboard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.newyearprojectyaaass.SellerDashboard" />
+    <configuration name="User" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.newyearprojectyaaass.User" />
       <module name="NewYearProjectYAAASS" />
       <extension name="coverage">
         <pattern>
@@ -109,11 +166,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.User" />
+        <item itemvalue="Application.Demo" />
         <item itemvalue="Application.ManageUsers" />
         <item itemvalue="Application.UserAccount" />
         <item itemvalue="Application.SellerDashboard" />
-        <item itemvalue="Application.SellerAccount" />
-        <item itemvalue="Application.Delivery" />
       </list>
     </recent_temporary>
   </component>
@@ -128,21 +185,24 @@
       <workItem from="1680819875668" duration="10461000" />
       <workItem from="1680870116719" duration="5823000" />
       <workItem from="1680876205432" duration="622000" />
+      <workItem from="1680877357880" duration="201000" />
+      <workItem from="1680877581436" duration="17254000" />
+      <workItem from="1681573855127" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/newyearprojectyaaass/Purchase.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

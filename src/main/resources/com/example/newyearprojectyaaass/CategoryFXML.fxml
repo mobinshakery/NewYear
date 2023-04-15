@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="ScenePane" prefHeight="660.0" prefWidth="1045.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.newyearprojectyaaass.CategoryController">
+   <children>
+      <Label layoutX="91.0" layoutY="114.0" text="CategoryID">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="92.0" layoutY="215.0" text="Category Name">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="313.0" text="Description">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="709.0" layoutY="73.0" text="Search">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="844.0" layoutY="75.0" />
+      <TextField layoutX="158.0" layoutY="168.0" />
+      <TextField layoutX="165.0" layoutY="268.0" />
+      <TextField layoutX="165.0" layoutY="379.0" />
+      <Button layoutX="135.0" layoutY="467.0" mnemonicParsing="false" prefHeight="39.0" prefWidth="76.0" text="Save">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="259.0" layoutY="467.0" mnemonicParsing="false" text="Update">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button layoutX="195.0" layoutY="549.0" mnemonicParsing="false" text="Delete">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TableView layoutX="428.0" layoutY="149.0" prefHeight="461.0" prefWidth="594.0">
+        <columns>
+          <TableColumn prefWidth="157.0" text="CategoryID" />
+          <TableColumn prefWidth="198.0" text="Category Name" />
+            <TableColumn prefWidth="238.0" text="Description" />
+        </columns>
+      </TableView>
+      <Button layoutX="993.0" layoutY="14.0" mnemonicParsing="false" onAction="#XButton" text="X" fx:id="xbutton" />
+   </children>
+</AnchorPane>
